@@ -1,0 +1,21 @@
+{
+  "name": "zmq-server",
+  "description": "A node.js server",
+  "version": "0.0.1-0",
+  "dependencies": {
+    "mongodb": "0.9.6-14",
+    "socket.io": "0.8.7",
+    "zmq": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JustinTulloss/zeromq.node.git"
+  },
+  "engines": {
+    "node": ">=0.3.0"
+  },
+  "subdomain": "zmq-server",
+  "scripts": {
+    "start": "server.js"
+  }
+}
